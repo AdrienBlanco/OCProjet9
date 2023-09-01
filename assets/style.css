@@ -216,6 +216,12 @@ body {
 	right: 0;
 	z-index: -1;
 }
+
+.picture.right img {
+	height: auto;
+}
+
+
 .form-container {
 	flex : 2;
 
@@ -247,6 +253,15 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer {
+	text-align: center;
+}
+
+footer .name {
+	font-size: 20px;
+	margin-top: 16px;
 }
 
 @media all and (max-width: 1180px) {
